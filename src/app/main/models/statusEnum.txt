@@ -1,0 +1,15 @@
+Rotas status
+AllDone - success text - done all
+Alert - at least one waiting - warnint text - warning
+InProgress - info text - cached
+Not Started - muted text - schedule
+Refused - at least one refused - danger text - higlighted off
+
+Entrega status -
+Not started - muted text - schedule
+Done - success text - done
+Refused - - danger text - higlighted off
+In progress - info text - cached
+Waiting -  - info text - hourglass empty
+NotDeliverd - danger - report
+AddressNotFound

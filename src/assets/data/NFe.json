@@ -1,0 +1,211 @@
+{
+	"nfeProc": {
+		"NFe": {
+			"infNFe": {
+				"ide": {
+					"cUF": "51",
+					"cNF": "00402307",
+					"natOp": "REMESSA EM CONSIGNACAO",
+					"indPag": "1",
+					"mod": "55",
+					"serie": "2",
+					"nNF": "40325",
+					"dhEmi": "2017-04-05T16:44:00-04:00",
+					"dhSaiEnt": "2017-04-05T16:44:00-04:00",
+					"tpNF": "1",
+					"idDest": "2",
+					"cMunFG": "5107602",
+					"tpImp": "1",
+					"tpEmis": "1",
+					"cDV": "8",
+					"tpAmb": "1",
+					"finNFe": "1",
+					"indFinal": "0",
+					"indPres": "9",
+					"procEmi": "0",
+					"verProc": "3.46.0"
+				},
+				"emit": {
+					"CNPJ": "06559531000103",
+					"xNome": "ITAP BEMIS C.OESTE IND.COM.EMB.LTDA",
+					"xFant": "ITAP BEMIS C.OESTE IND.COM.EMB.LTDA",
+					"enderEmit": {
+						"xLgr": "RODOVIA MT 383 ,0 S/N KM 0",
+						"nro": "S/N",
+						"xCpl": "S/N KM 0",
+						"xBairro": "ZONA EXP. URBANA",
+						"cMun": "5107602",
+						"xMun": "RONDONOPOLIS",
+						"UF": "MT",
+						"CEP": "78700970",
+						"cPais": "1058",
+						"xPais": "Brasil",
+						"fone": "6621017200"
+					},
+					"IE": "132803240",
+					"CRT": "3"
+				},
+				"dest": {
+					"CNPJ": "67620377000114",
+					"xNome": "MINERVA SA",
+					"enderDest": {
+						"xLgr": "AV ANTONIO MANCO BERNARDES",
+						"nro": "SN CXP 181",
+						"xBairro": "CHACARA MINERVA",
+						"cMun": "3505500",
+						"xMun": "BARRETOS",
+						"UF": "SP",
+						"CEP": "14781545",
+						"cPais": "1058",
+						"xPais": "Brasil",
+						"fone": "1733213355"
+					},
+					"indIEDest": "1",
+					"IE": "204068241114",
+					"email": "nfe-recebimento@minervafoods.com"
+				},
+				"det": {
+					"prod": {
+						"cProd": "900401519",
+						"cEAN": "",
+						"xProd": "CT 280x800 52993 166818 166851",
+						"NCM": "39232190",
+						"EXTIPI": "00",
+						"CFOP": "6917",
+						"uCom": "mh",
+						"qCom": "7.2000",
+						"vUnCom": "618.5097222220",
+						"vProd": "4453.27",
+						"cEANTrib": "",
+						"uTrib": "mh",
+						"qTrib": "7.2000",
+						"vUnTrib": "618.5097222220",
+						"indTot": "1",
+						"xPed": "4700001899",
+						"nFCI": "58FD3E84-0155-425B-89F5-0D5051861D88"
+					},
+					"imposto": {
+						"ICMS": {
+							"ICMS00": {
+								"orig": "5",
+								"CST": "00",
+								"modBC": "3",
+								"vBC": "4453.27",
+								"pICMS": "12.0000",
+								"vICMS": "534.39"
+							}
+						},
+						"IPI": {
+							"cEnq": "122",
+							"IPINT": {
+								"CST": "55"
+							}
+						},
+						"PIS": {
+							"PISNT": {
+								"CST": "08"
+							}
+						},
+						"COFINS": {
+							"COFINSNT": {
+								"CST": "08"
+							}
+						}
+					},
+					"_nItem": "10"
+				},
+				"total": {
+					"ICMSTot": {
+						"vBC": "4453.27",
+						"vICMS": "534.39",
+						"vICMSDeson": "0.00",
+						"vBCST": "0.00",
+						"vST": "0.00",
+						"vProd": "4453.27",
+						"vFrete": "0.00",
+						"vSeg": "0.00",
+						"vDesc": "0.00",
+						"vII": "0.00",
+						"vIPI": "0.00",
+						"vPIS": "0.00",
+						"vCOFINS": "0.00",
+						"vOutro": "0.00",
+						"vNF": "4453.27"
+					}
+				},
+				"transp": {
+					"modFrete": "0",
+					"transporta": {
+						"CNPJ": "18085182000106",
+						"xNome": "VERDE FROTA LOG E TRAN LTDA ME",
+						"IE": "9071205620",
+						"xEnder": "AV TIRADENTES",
+						"xMun": "LONDRINA",
+						"UF": "PR"
+					},
+					"vol": {
+						"qVol": "9",
+						"esp": "Caixas",
+						"pesoL": "167.550",
+						"pesoB": "178.350"
+					}
+				},
+				"infAdic": {
+					"infCpl": "Entregar no cliente em 08/04/2017 BARRETOS ***SEU PEDIDO: 4700001899BARRETOS*** SAIDA COM SUSPENSAO DO IPI CONFORME ARTIGO 29 DA LEI 10637 DE 30.12.02 SAIDA COM SUSPENSAO DO PIS E DA COFINS, CONFORME PROCESSO 13852.000017/2006-81."
+				},
+				"_versao": "3.10",
+				"_Id": "NFe51170406559531000103550020000403251004023078"
+			},
+			"Signature": {
+				"SignedInfo": {
+					"CanonicalizationMethod": {
+						"_Algorithm": "http://www.w3.org/TR/2001/REC-xml-c14n-20010315"
+					},
+					"SignatureMethod": {
+						"_Algorithm": "http://www.w3.org/2000/09/xmldsig#rsa-sha1"
+					},
+					"Reference": {
+						"Transforms": {
+							"Transform": [
+								{
+									"_Algorithm": "http://www.w3.org/2000/09/xmldsig#enveloped-signature"
+								},
+								{
+									"_Algorithm": "http://www.w3.org/TR/2001/REC-xml-c14n-20010315"
+								}
+							]
+						},
+						"DigestMethod": {
+							"_Algorithm": "http://www.w3.org/2000/09/xmldsig#sha1"
+						},
+						"DigestValue": "QHLgxw0nXlNp4vqnpR/N8XqPASk=",
+						"_URI": "#NFe51170406559531000103550020000403251004023078"
+					}
+				},
+				"SignatureValue": "CmM1AlDNlZQYSDiTNyW+DVIE8R+nmZeikUMo1/eqHiyE1EGHx0c/brcMTxElSUpSCHOCjo843U7D3xlzWq5d4VB/ZMMWcCwQ5m1c/3X5pB43Dg59YWO471z1O7kbNdAo8JgNdWJvZaAUlw2W4M7r8I9E1XT8srVUmvxvS/S1AbU=",
+				"KeyInfo": {
+					"X509Data": {
+						"X509Certificate": "MIICOTCCAaKgAwIBAgIQJpLn3fwH17RNXJHw5VenaDANBgkqhkiG9w0BAQUFADBbMVkwVwYDVQQDHlAAdwB3AHcALgBmAHMAaQBzAHQALgBjAG8AbQAuAGIAcgAgACgAUwBFAE0AIABWAEEATABJAEQAQQBEAEUAIABKAFUAUgDNAEQASQBDAEEAKTAeFw0xNTEyMjQwODI1MjVaFw0xODEyMjQwODI1MjVaMFsxWTBXBgNVBAMeUAB3AHcAdwAuAGYAcwBpAHMAdAAuAGMAbwBtAC4AYgByACAAKABTAEUATQAgAFYAQQBMAEkARABBAEQARQAgAEoAVQBSAM0ARABJAEMAQQApMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDX4BYmJiNwrPz9At2ioXYkMuMWAOf669VPS3SAzIKkJLhSE7Bf9sbTjGHRFZhs6STxKkMBKKnx6dqAEMGlQwDSU42/kqhGya28SUn3HigH2w3dR/536Gt4eAxyLp9ODNXUqWTpnraWCeT41kcnJ27cmOAUMxzxDcsA93n32L4u8wIDAQABMA0GCSqGSIb3DQEBBQUAA4GBAAN89zf+wSFL+4+2Ic8mGva8Z51EzYzNgYEqXwEMHxw4jCxxbsuxewQWedSGWi3SFZla6zmNUEA+UO95tSZ353klTvWDzut2BFSJOPLcMu8HPTTdnMt4ofVeVqKyi2vp+3t78vjqDAAfSAu5C9wT7stoUx41Nok+L6WbmpOIgvHy"
+					}
+				},
+				"_xmlns": "http://www.w3.org/2000/09/xmldsig#"
+			},
+			"_xmlns": "http://www.portalfiscal.inf.br/nfe"
+		},
+		"protNFe": {
+			"infProt": {
+				"tpAmb": "1",
+				"verAplic": "3.46.0",
+				"chNFe": "51170406559531000103550020000403251004023078",
+				"dhRecbto": "2017-04-05T15:44:26-04:00",
+				"nProt": "151170018705545",
+				"digVal": "QHLgxw0nXlNp4vqnpR/N8XqPASk=",
+				"cStat": "100",
+				"xMotivo": "Autorizado o uso da NF-e"
+			},
+			"_versao": "3.10"
+		},
+		"_xmlns": "http://www.portalfiscal.inf.br/nfe",
+		"_versao": "3.10"
+	}
+}

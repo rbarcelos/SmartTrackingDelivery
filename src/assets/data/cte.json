@@ -1,0 +1,320 @@
+{
+	"cteProc": {
+		"CTe": {
+			"infCte": {
+				"ide": {
+					"cUF": "41",
+					"cCT": "00002881",
+					"CFOP": "6932",
+					"natOp": "Transporte Rodoviario Interestadual",
+					"forPag": "0",
+					"mod": "57",
+					"serie": "1",
+					"nCT": "2881",
+					"dhEmi": "2017-04-11T18:01:07",
+					"tpImp": "1",
+					"tpEmis": "1",
+					"cDV": "8",
+					"tpAmb": "1",
+					"tpCTe": "0",
+					"procEmi": "0",
+					"verProc": "NDDigital CTe 4.6.3",
+					"cMunEnv": "4113700",
+					"xMunEnv": "LONDRINA",
+					"UFEnv": "PR",
+					"modal": "01",
+					"tpServ": "0",
+					"cMunIni": "5107602",
+					"xMunIni": "RONDONOPOLIS",
+					"UFIni": "MT",
+					"cMunFim": "3505500",
+					"xMunFim": "BARRETOS",
+					"UFFim": "SP",
+					"retira": "1",
+					"toma03": {
+						"toma": "0"
+					}
+				},
+				"compl": {
+					"xObs": "UF/CT-e: P1/2881 - Emit.: 100 - Resp.: JOAO -  Vlr p/ Seg: 84776.59 -  Vlr Aprox. Tributos: 318.74 (21.25%) -  N.OT: 0",
+					"ObsCont": [
+						{
+							"xTexto": "Subcontr: 14441298000180-MARIA JOSE DO NASCIMENTO & CIA LTDA - RUA Elisa Simeon Meretka, 315  SAO JOSE DOS PINHAIS-PR, Veic: IJC6293-PR.",
+							"_xCampo": "Subcontratado:"
+						},
+						{
+							"xTexto": "ICMS SOBRE SERVICO DE TRANSPORTE SERA PAGO PELO CONTRATANTE. O TRANSPORTADOR OPTOU PELO CREDITO PRESUMIDO DE QUE TRATA O ITEM 48 ANEXO III RICMS/2012 - PR",
+							"_xCampo": "SubcontrMsg"
+						}
+					]
+				},
+				"emit": {
+					"CNPJ": "18085182000106",
+					"IE": "9071205620",
+					"xNome": "VERDE FROTA LOGISTICA E TRANSP. LTDA",
+					"xFant": "VERDE FROTA LOGISTICA E TRANSP. LTDA",
+					"enderEmit": {
+						"xLgr": "AV. Tiradentes",
+						"nro": "6350",
+						"xCpl": "SALA7",
+						"xBairro": "Jardim Rosicler",
+						"cMun": "4113700",
+						"xMun": "LONDRINA",
+						"CEP": "86072000",
+						"UF": "PR"
+					}
+				},
+				"rem": {
+					"CNPJ": "06559531000103",
+					"IE": "132803240",
+					"xNome": "ITAP BEMIS C. OESTE IND. COM. EMB. LTDA",
+					"xFant": "ITAP BEMIS C. OESTE IND. COM.",
+					"fone": "6621017200",
+					"enderReme": {
+						"xLgr": "MT 383",
+						"nro": "0",
+						"xCpl": "KM 0",
+						"xBairro": "ZONA DE EXP. URBANA",
+						"cMun": "5107602",
+						"xMun": "RONDONOPOLIS",
+						"CEP": "78700970",
+						"UF": "MT",
+						"cPais": "1058",
+						"xPais": "BRASIL"
+					},
+					"email": "fiscal.rondonopolis@bemis.com"
+				},
+				"dest": {
+					"CNPJ": "67620377000114",
+					"IE": "204068241114",
+					"xNome": "MINERVA SA",
+					"fone": "1733213355",
+					"enderDest": {
+						"xLgr": "ANTONIO MANCO BERNARDES",
+						"nro": "0",
+						"xBairro": "CHACARA MINERVA",
+						"cMun": "3505500",
+						"xMun": "BARRETOS",
+						"CEP": "14781545",
+						"UF": "SP",
+						"cPais": "1058",
+						"xPais": "BRASIL"
+					},
+					"email": "nfe-recebimento@minervafoods.com"
+				},
+				"vPrest": {
+					"vTPrest": "1499.93",
+					"vRec": "1499.93",
+					"Comp": [
+						{
+							"xNome": "VLR ICMS",
+							"vComp": "179.99"
+						},
+						{
+							"xNome": "VLR FRETE",
+							"vComp": "1319.94"
+						}
+					]
+				},
+				"imp": {
+					"ICMS": {
+						"ICMS00": {
+							"CST": "00",
+							"vBC": "1499.93",
+							"pICMS": "12.00",
+							"vICMS": "179.99"
+						}
+					},
+					"vTotTrib": "318.74",
+					"infAdFisco": "NT 05/2013 - LEI DA TRANSPARENCIA"
+				},
+				"infCTeNorm": {
+					"infCarga": {
+						"vCarga": "84776.59",
+						"proPred": "DIVERSOS",
+						"infQ": [
+							{
+								"cUnid": "01",
+								"tpMed": "PESO DECLARADO",
+								"qCarga": "3439.2100"
+							},
+							{
+								"cUnid": "03",
+								"tpMed": "VOLUME TRANSP.",
+								"qCarga": "166.0000"
+							}
+						]
+					},
+					"infDoc": {
+						"infNFe": [
+							{
+								"chave": "51170406559531000103550020000403251004023078",
+								"dPrev": "2017-04-13"
+							},
+							{
+								"chave": "51170406559531000103550020000403261001013966",
+								"dPrev": "2017-04-13"
+							},
+							{
+								"chave": "51170406559531000103550020000403281006331880",
+								"dPrev": "2017-04-13"
+							},
+							{
+								"chave": "51170406559531000103550020000403291005233768",
+								"dPrev": "2017-04-13"
+							},
+							{
+								"chave": "51170406559531000103550020000403301006193256",
+								"dPrev": "2017-04-13"
+							},
+							{
+								"chave": "51170406559531000103550020000403311008466745",
+								"dPrev": "2017-04-13"
+							},
+							{
+								"chave": "51170406559531000103550020000403321004840704",
+								"dPrev": "2017-04-13"
+							},
+							{
+								"chave": "51170406559531000103550020000403331005275021",
+								"dPrev": "2017-04-13"
+							},
+							{
+								"chave": "51170406559531000103550020000403341003722540",
+								"dPrev": "2017-04-13"
+							},
+							{
+								"chave": "51170406559531000103550020000403351004189363",
+								"dPrev": "2017-04-13"
+							},
+							{
+								"chave": "51170406559531000103550020000403861005948879",
+								"dPrev": "2017-04-13"
+							}
+						]
+					},
+					"seg": {
+						"respSeg": "4",
+						"xSeg": "MAPFRE SEGUROS GERAIS S.A.",
+						"nApol": "5425020 000086601",
+						"vCarga": "84776.59"
+					},
+					"infModal": {
+						"rodo": {
+							"RNTRC": "46709327",
+							"dPrev": "2017-04-13",
+							"lota": "1",
+							"veic": [
+								{
+									"cInt": "0",
+									"RENAVAM": "00723689490",
+									"placa": "IJC6293",
+									"tara": "7500",
+									"capKG": "17000",
+									"capM3": "100",
+									"tpProp": "T",
+									"tpVeic": "0",
+									"tpRod": "00",
+									"tpCar": "00",
+									"UF": "PR",
+									"prop": {
+										"CNPJ": "14441298000180",
+										"RNTRC": "46107256",
+										"xNome": "MARIA JOSE DO NASCIMENTO & CIA LTDA",
+										"IE": "9057547500",
+										"UF": "PR",
+										"tpProp": "2"
+									}
+								},
+								{
+									"cInt": "0",
+									"RENAVAM": "00881080675",
+									"placa": "ANQ7089",
+									"tara": "8000",
+									"capKG": "35000",
+									"capM3": "100",
+									"tpProp": "T",
+									"tpVeic": "1",
+									"tpRod": "00",
+									"tpCar": "00",
+									"UF": "PR",
+									"prop": {
+										"CNPJ": "14441298000180",
+										"RNTRC": "46107256",
+										"xNome": "MARIA JOSE DO NASCIMENTO & CIA LTDA",
+										"IE": "9057547500",
+										"UF": "PR",
+										"tpProp": "2"
+									}
+								}
+							],
+							"moto": {
+								"xNome": "VOLNEI ZANETTI",
+								"CPF": "92457207991"
+							}
+						},
+						"_versaoModal": "2.00"
+					}
+				},
+				"autXML": {
+					"CNPJ": "04898488000177"
+				},
+				"_versao": "2.00",
+				"_Id": "CTe41170418085182000106570010000028811000028818"
+			},
+			"Signature": {
+				"SignedInfo": {
+					"CanonicalizationMethod": {
+						"_Algorithm": "http://www.w3.org/TR/2001/REC-xml-c14n-20010315"
+					},
+					"SignatureMethod": {
+						"_Algorithm": "http://www.w3.org/2000/09/xmldsig#rsa-sha1"
+					},
+					"Reference": {
+						"Transforms": {
+							"Transform": [
+								{
+									"_Algorithm": "http://www.w3.org/2000/09/xmldsig#enveloped-signature"
+								},
+								{
+									"_Algorithm": "http://www.w3.org/TR/2001/REC-xml-c14n-20010315"
+								}
+							]
+						},
+						"DigestMethod": {
+							"_Algorithm": "http://www.w3.org/2000/09/xmldsig#sha1"
+						},
+						"DigestValue": "T0huAMaxxPoWF79qqBh0F5YMVxQ=",
+						"_URI": "#CTe41170418085182000106570010000028811000028818"
+					}
+				},
+				"SignatureValue": "nO1dEBK6Z4Wz6RCve0I5KhvL5K75nRHdtN74DIuExUw+euM/7qV1TVoHr4GdRyDceuYh8wrNPVH2sxv/xFFW2QJ7ue3vQ8PVAWdAN2PDicOR5P/EkRyFiba/h6fQKSJHu67Dx9hAdM+cagHdQXDr+JVfTzoQV7mTqPDqtUjPOrU0sS3NcmlNYi4btmMftGbA8Bd7i4yMA3hhNQpvd+o++rvvQaSgmZE0MKeWVnFgI/bg04NBKJTXlJAnna648rn9NA0prhVO6hGQroDaoLzGNP1dkO1QHxxXIF27RMOuXhL9/rxiK/KsuEp6C/ihsG6rWLoV4EKTgSZVBvxPWrM6TQ==",
+				"KeyInfo": {
+					"X509Data": {
+						"X509Certificate": "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"
+					}
+				},
+				"_xmlns": "http://www.w3.org/2000/09/xmldsig#"
+			},
+			"_xmlns": "http://www.portalfiscal.inf.br/cte"
+		},
+		"protCTe": {
+			"infProt": {
+				"tpAmb": "1",
+				"verAplic": "PR-v2_3_03",
+				"chCTe": "41170418085182000106570010000028811000028818",
+				"dhRecbto": "2017-04-11T18:01:39",
+				"nProt": "141170008037663",
+				"digVal": "T0huAMaxxPoWF79qqBh0F5YMVxQ=",
+				"cStat": "100",
+				"xMotivo": "Autorizado o uso do CT-e"
+			},
+			"_versao": "2.00"
+		},
+		"_xmlns": "http://www.portalfiscal.inf.br/cte",
+		"_xmlns:ds": "http://www.w3.org/2000/09/xmldsig#",
+		"_xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+		"_versao": "2.00",
+		"_xsi:schemaLocation": "http://www.portalfiscal.inf.br/cte procCTe_v2.00.xsd"
+	}
+}

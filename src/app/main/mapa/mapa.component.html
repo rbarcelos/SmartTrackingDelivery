@@ -1,0 +1,18 @@
+<agm-map *ngIf="mapaPontos" class="map-container" [scrollwheel]="false" [streetViewControl]="false" [fitBounds]="mapaBounds">
+    <agm-marker *ngFor="let pt of mapaPontos; let i = index" [latitude]="pt.lat" [longitude]="pt.long" [iconUrl]="pt.iconUrl" (markerClick)="clickedMarker($event)">
+        <agm-info-window [disableAutoPan]="true">
+            <info-window-content [model]="pt.content"></info-window-content>
+        </agm-info-window>
+    </agm-marker>
+</agm-map>
+<div class="listing">
+    <table class="resultsTable">
+        <tbody class="results">
+            <tr *ngFor="let pt of mapaPontos; let i = index">
+                <td>
+                    <info-window-content [model]="pt.content"></info-window-content>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>

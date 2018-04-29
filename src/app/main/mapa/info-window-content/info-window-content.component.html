@@ -1,0 +1,18 @@
+<div>
+  {{model.name | uppercase}}
+  <table>
+    <tr>
+      <td>Endereco:</td>
+      <td>{{model.endereco}}</td>
+    </tr>
+    <tr>
+      <li *ngFor="let st of model.statusBar;">
+        <td>{{st.iconName}}</td>
+        <td>{{st.description}}</td>
+      </li>
+      <td>{{model.contentStatus}}</td>
+    </tr>
+  </table>
+
+  {{model.lastUpdated}}
+</div>
